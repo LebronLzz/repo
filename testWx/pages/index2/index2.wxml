@@ -1,0 +1,16 @@
+<!--pages/index2/index2.wxml-->
+<view>{{msg}}</view>
+<view>name:{{person.name}}</view>
+<view>age:{{person.age}}</view>
+<view>
+  <image src="../../imgs/index.png"></image>
+  </view>
+
+<view wx:for="{{students}}">
+{{item.name}}
+</view>
+<block wx:for="{{students}}" wx:for-index="id" wx:for-item="a">
+  <view> {{id}} </view>
+  <view>{{a.name}},{{a.age}} </view>
+  
+</block>

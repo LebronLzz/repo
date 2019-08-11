@@ -1,0 +1,4 @@
+/* pages/index3/index3.wxss */
+image{
+ width:100%
+}
